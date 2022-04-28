@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# CAUTION: This script would remove all of branches where are not on remote.
+# push first your working branch or backup with git archive command
+
 # CAUTION: remote branch 에 존재하지 않는 local branch 를 삭제합니다.
 # 백업이 필요하다면 git archive 를 활용하세요.
 
